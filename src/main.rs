@@ -5,9 +5,9 @@ use std::process::{Child, Command, Stdio};
 
 fn main() {
     loop {
-        // use the `>` character as the prompt
+        // use the `🦀` character as the prompt
         // need to explicitly flush this to ensure it prints before read_line
-        print!("> ");
+        print!("🦀 ");
         stdout().flush().unwrap();
 
         let mut input = String::new();
